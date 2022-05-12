@@ -6,7 +6,8 @@ import cat_gif from "../images/cs_cat.gif";
 import styles from "./SocketClient.module.css";
 import AudioPlayer from "./AudioPlayer.js";
 
-const ENDPOINT = "http://localhost:5001";
+//const ENDPOINT = "http://localhost:5001";
+const ENDPOINT = "https://kahootclonecs161.herokuapp.com/";
 const socket = io(ENDPOINT);
 
 const SocketClient = ({ onLogoutHandler }) => {
