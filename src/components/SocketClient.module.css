@@ -1,0 +1,56 @@
+.input:focus {
+  padding: 15px;
+  font-size: 2.5vh;
+  margin: 1vw;
+}
+
+.center {
+  text-align: center;
+}
+
+.image {
+  margin: 8vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45vh;
+}
+.input {
+  padding: 15px;
+  font-size: 2.5vh;
+  margin: 1vw;
+}
+
+.join_room {
+  background-color: #1b32b6; /* Green */
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  padding: 5vh;
+  margin: 2vh;
+  border: 1px solid #ffff;
+  display: block;
+  width: 100vw;
+}
+
+.button {
+  height: 6vh;
+  margin: 5px;
+  width: 15vw;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 16px;
+  background: linear-gradient(to right, #574c87, #291e58);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.header {
+  padding: 4vh;
+}
